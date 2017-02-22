@@ -81,7 +81,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Habitat.Objects\Habitat.Objects.csproj">
+    <ProjectReference Include="Habitat.Objects\Habitat.Objects.csproj">
       <Project>{d6a3a06b-6dd8-4780-8dcc-64172412e106}</Project>
       <Name>Habitat.Objects</Name>
     </ProjectReference>
