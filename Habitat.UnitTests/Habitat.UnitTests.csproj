@@ -58,6 +58,10 @@
       <Project>{d6a3a06b-6dd8-4780-8dcc-64172412e106}</Project>
       <Name>Habitat.Objects</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Habitat.Physics\Habitat.Math.csproj">
+      <Project>{b2870f82-cde9-4322-ab37-c73c7bef15ff}</Project>
+      <Name>Habitat.Math</Name>
+    </ProjectReference>
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">

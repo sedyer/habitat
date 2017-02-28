@@ -5,13 +5,13 @@ VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Habitat.Main", "Habitat.Main.csproj", "{0D53D20A-EBB2-4345-9EB7-2C77BE39BF4B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Habitat.Systems", "Habitat.Systems\Habitat.Systems.csproj", "{C5E9EE7E-C227-4E5F-9C33-1C7D9ACD0D75}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Habitat.Rendering", "Habitat.Rendering\Habitat.Rendering.csproj", "{2E0D6CB2-A056-4AE0-8C19-8C116298366E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Habitat.Objects", "Habitat.Objects\Habitat.Objects.csproj", "{D6A3A06B-6DD8-4780-8DCC-64172412E106}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Habitat.UnitTests", "Habitat.UnitTests\Habitat.UnitTests.csproj", "{97EE850B-D768-4D65-9D12-0C2D1E00ECC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Habitat.Math", "Habitat.Physics\Habitat.Math.csproj", "{B2870F82-CDE9-4322-AB37-C73C7BEF15FF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,6 @@ Global
 		{0D53D20A-EBB2-4345-9EB7-2C77BE39BF4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D53D20A-EBB2-4345-9EB7-2C77BE39BF4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D53D20A-EBB2-4345-9EB7-2C77BE39BF4B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C5E9EE7E-C227-4E5F-9C33-1C7D9ACD0D75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C5E9EE7E-C227-4E5F-9C33-1C7D9ACD0D75}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C5E9EE7E-C227-4E5F-9C33-1C7D9ACD0D75}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C5E9EE7E-C227-4E5F-9C33-1C7D9ACD0D75}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2E0D6CB2-A056-4AE0-8C19-8C116298366E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2E0D6CB2-A056-4AE0-8C19-8C116298366E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E0D6CB2-A056-4AE0-8C19-8C116298366E}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -39,6 +35,10 @@ Global
 		{97EE850B-D768-4D65-9D12-0C2D1E00ECC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97EE850B-D768-4D65-9D12-0C2D1E00ECC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{97EE850B-D768-4D65-9D12-0C2D1E00ECC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2870F82-CDE9-4322-AB37-C73C7BEF15FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2870F82-CDE9-4322-AB37-C73C7BEF15FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2870F82-CDE9-4322-AB37-C73C7BEF15FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2870F82-CDE9-4322-AB37-C73C7BEF15FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

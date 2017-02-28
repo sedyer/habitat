@@ -89,10 +89,6 @@
       <Project>{2e0d6cb2-a056-4ae0-8c19-8c116298366e}</Project>
       <Name>Habitat.Rendering</Name>
     </ProjectReference>
-    <ProjectReference Include="Habitat.Systems\Habitat.Systems.csproj">
-      <Project>{c5e9ee7e-c227-4e5f-9c33-1c7d9acd0d75}</Project>
-      <Name>Habitat.Systems</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

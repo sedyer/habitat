@@ -1,6 +1,6 @@
-﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Habitat.Math;
 using Habitat.Objects;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Habitat.UnitTests
 {
@@ -18,7 +18,7 @@ namespace Habitat.UnitTests
         {
             Mass = 5.9721986e24,
             Radius = 6.3710088e6,
-            SemimajorAxis = 1496e8,
+            CurrentOrbit = new Orbit { SemimajorAxis = 1496e8 },
             PrimaryBody = sun
         };
 
@@ -29,17 +29,17 @@ namespace Habitat.UnitTests
         [TestMethod]
         public void TestEarthSurfaceEscapeVelocity()
         {
-            Assert.IsTrue(earth.SurfaceEscapeVelocity < 11190);
+            Assert.IsTrue(Physics.getSurfaceEscapeVelocity(earth) < 11190);
 
-            Assert.IsTrue(earth.SurfaceEscapeVelocity > 11180);
+            Assert.IsTrue(Physics.getSurfaceEscapeVelocity(earth) > 11180);
         }
 
         [TestMethod]
         public void TestEarthOrbitalVelocity()
         {
-            Assert.IsTrue(earth.OrbitalVelocity < 29900);
+            Assert.IsTrue(Physics.getOrbitalVelocity(earth) < 29900);
 
-            Assert.IsTrue(earth.OrbitalVelocity > 29700);
+            Assert.IsTrue(Physics.getOrbitalVelocity(earth) > 29700);
         }
 
         #endregion

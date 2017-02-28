@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Habitat.Systems")]
+[assembly: AssemblyTitle("Habitat.Physics")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Habitat.Systems")]
-[assembly: AssemblyCopyright("Copyright ©  2017")]
+[assembly: AssemblyCompany("ZirMed Inc")]
+[assembly: AssemblyProduct("Habitat.Physics")]
+[assembly: AssemblyCopyright("Copyright © ZirMed Inc 2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("c5e9ee7e-c227-4e5f-9c33-1c7d9acd0d75")]
+[assembly: Guid("b2870f82-cde9-4322-ab37-c73c7bef15ff")]
 
 // Version information for an assembly consists of the following four values:
 //
