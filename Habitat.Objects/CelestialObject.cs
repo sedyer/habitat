@@ -11,7 +11,7 @@ namespace Habitat.Objects
     {
         //constants
 
-        internal double G = 6.674e-10;
+        internal double G = 6.67e-11;
 
         //object characteristics
 
@@ -29,7 +29,7 @@ namespace Habitat.Objects
         {
             get
             {
-                return SemimajorAxis != 0 ? System.Math.Sqrt((G * Mass) / SemimajorAxis) : 0;
+                return PrimaryBody != null ? System.Math.Sqrt((G * (Mass + PrimaryBody.Mass)) / SemimajorAxis) : 0;
             }
         }
 
@@ -37,7 +37,7 @@ namespace Habitat.Objects
         {
             get
             {
-                return System.Math.Sqrt((G * Mass) / Radius) * System.Math.Sqrt(2);
+                return Radius == 0 ? 0 : System.Math.Sqrt((2 * (G * Mass)) / Radius);
             }
         }
     }
