@@ -1,6 +1,6 @@
 ﻿namespace Habitat.Objects
 {
-    internal class HabitatModule
+    internal class Module
     {
     }
 }

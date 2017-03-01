@@ -18,8 +18,7 @@ namespace Habitat.UnitTests
         {
             Mass = 5.9721986e24,
             Radius = 6.3710088e6,
-            CurrentOrbit = new Orbit { SemimajorAxis = 1496e8 },
-            PrimaryBody = sun
+            CurrentOrbit = new Orbit { SemimajorAxis = 1496e8, OrbitedBody = sun },
         };
 
         #endregion

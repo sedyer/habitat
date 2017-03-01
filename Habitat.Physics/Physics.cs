@@ -10,11 +10,11 @@ namespace Habitat.Math
 
         #endregion
 
-        #region Test methods
+        #region Methods
 
         public static double getOrbitalVelocity(CelestialObject body)
         {
-            return body.PrimaryBody != null && body.CurrentOrbit.SemimajorAxis > 0 ? System.Math.Sqrt((G * (body.Mass + body.PrimaryBody.Mass)) / body.CurrentOrbit.SemimajorAxis) : 0;
+            return body.CurrentOrbit.OrbitedBody != null && body.CurrentOrbit.SemimajorAxis > 0 ? System.Math.Sqrt((G * (body.Mass + body.CurrentOrbit.OrbitedBody.Mass)) / body.CurrentOrbit.SemimajorAxis) : 0;
         }
 
         public static double getSurfaceEscapeVelocity(CelestialObject body)

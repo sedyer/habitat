@@ -42,7 +42,7 @@
   <ItemGroup>
     <Compile Include="CelestialObject.cs" />
     <Compile Include="Habitat.cs" />
-    <Compile Include="HabitatModule.cs" />
+    <Compile Include="Module.cs" />
     <Compile Include="Orbit.cs" />
     <Compile Include="Person.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
